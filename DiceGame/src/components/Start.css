@@ -1,0 +1,28 @@
+
+
+.start-play h1{
+    font-size: 94px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.start-play button{
+    margin-left: 24rem;
+    background-color: black;
+    border: 1px solid transparent;
+    color: white;
+    padding: 10px;
+    font-size: 32px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    transition: 0.4s background ease-in;
+
+    &:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        transition: 0.3s background ease-in;
+    }
+}
